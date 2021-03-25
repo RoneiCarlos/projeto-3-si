@@ -1,0 +1,139 @@
+@font-face {
+    font-family: Trebuchet;
+    src: url(../fontes/Trebuchet.ttf);
+}
+@font-face {
+    font-family: Poiret One;
+    src: url(../fontes/PoiretOne.ttf);
+}
+@font-face {
+    font-family: Merienda;
+    src: url(../fontes/Merienda.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #161412;
+}
+
+.vh100 {
+    height: 100vh;
+}
+
+
+.bg1 {
+    overflow: hidden;
+    background-color: #161412;
+}
+
+.bg1 img {
+    width: 100%;
+    height: 100vh;
+    opacity: .6;
+    position: relative;
+}
+
+.home-title-sub {
+    position: relative;
+    margin-top: -92vh;
+    text-align: center;
+}
+
+.title {
+    color: #c28d4b;
+    font-size: 135px;
+    font-family: Merienda;
+    font-weight: 400;
+    letter-spacing: -5px;
+}
+
+.sub {
+    color: #ddcdbf;
+    font-size: 64px;
+    font-family: Poiret One;
+    font-weight: 400;
+    letter-spacing: -3px;
+}
+
+.hometi {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); 
+}
+
+.hometi h3 {
+    color: #c28d4b;
+    font-family: Trebuchet;
+    font-size: 101.25px;
+    font-weight: 400;
+    letter-spacing: -5px;
+    text-align: center;
+}
+
+.hometi i {
+    color: #ddcdbf;
+    font-size: 150px;
+    margin-top: 46px;
+}
+
+.hometi img {
+    color: #ddcdbf;
+    font-size: 150px;
+    margin-top: 46px;
+}
+
+.home-arrow-text {
+    position: relative;
+    margin-top: 27vh;
+    text-align: center;
+}
+
+.home-arrow-text i {
+    float: left;
+    color: #ddcdbf;
+    font-size: 150px;
+    margin-left: 45.25%;
+}
+.home-arrow-text p {
+    color: #ddcdbf;
+    font-family: Trebuchet;
+    font-size: 20px;
+    float: left;
+    position: relative;
+    position: relative;
+    top: 50%;
+    transform: translateY(270%);
+    margin-left: 15%;
+    opacity: .4;
+}
+
+.bg2 {
+    background-color: #161412;
+}
+
+.bg3 {
+    background-color: #3c311f;
+}
+
+.bg4 {
+    background-color: #744924;
+}
+
+.bg5 {
+    background-color: #161412;
+}
+
+.icon-right {
+    color: #ddcdbf;
+    font-size: 150px;
+    text-align: right;
+    position: relative;
+    top: 50%;
+    transform: translateY(-237%);
+    margin-right: 22.5px;
+}
