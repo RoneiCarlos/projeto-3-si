@@ -9,6 +9,5 @@ function login(event) {
     }
     else {
         alert("Dados incorretos, tente novamente!");
-        
     }
 }
