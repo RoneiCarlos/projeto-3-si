@@ -1,9 +1,9 @@
 function login(event) {
     event.preventDefault();
-    var Usuario = document.getElementsByName('username')[0].value;
-    var senha = document.getElementsByName('password')[0].value;
+    var username = document.getElementsByName('username')[0].value;
+    var password = document.getElementsByName('password')[0].value;
 
-    if (Usuario == "bfc" && senha == "bfc") {
+    if (username == "bfc" && password == "bfc") {
         alert("Dados corretos!");
         window.location = "login.html";
     }
