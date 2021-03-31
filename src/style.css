@@ -101,13 +101,16 @@ body {
     position: relative;
     margin-top: 27vh;
     text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .home-arrow-text i {
     float: left;
     color: #ddcdbf;
     font-size: 150px;
-    margin-left: 45.25%;
+    margin-left: 26.6%;
+    margin-right: 19.4%;
 }
 .home-arrow-text p {
     color: #ddcdbf;
@@ -115,10 +118,9 @@ body {
     font-size: 20px;
     float: left;
     position: relative;
-    position: relative;
     top: 50%;
     transform: translateY(270%);
-    margin-left: 15%;
+    margin-left: 3%;
     opacity: .4;
 }
 
