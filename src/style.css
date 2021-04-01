@@ -156,6 +156,11 @@ body {
     margin-right: 22.5px;
 }
 
+.icon-right a:link, a:visited {
+	text-decoration: none;
+    color: #ddcdbf;
+}
+
 /*
 * estilos da página de login
 */
