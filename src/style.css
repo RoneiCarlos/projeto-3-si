@@ -35,8 +35,8 @@ body {
     position: relative;
 }
 
-.op6 {
-    opacity: .6;
+.op3 {
+    opacity: .3;
 }
 
 .op1 {
@@ -97,28 +97,41 @@ body {
     margin-top: 46px;
 }
 
-.home-arrow-text {
+.menu {
     position: relative;
-    margin-top: 27vh;
+    margin-top: 35vh;
     text-align: center;
 }
 
-.home-arrow-text i {
-    float: left;
-    color: #ddcdbf;
-    font-size: 150px;
-    margin-left: 45.25%;
-}
-.home-arrow-text p {
-    color: #ddcdbf;
-    font-family: Trebuchet;
-    font-size: 20px;
-    float: left;
-    position: relative;
+.menu nav {
+    width: 100%;
     top: 50%;
     transform: translateY(270%);
     margin-left: 15%;
     opacity: .4;
+}
+
+.menu nav {
+    width: 70%;
+    list-style: none;
+    color: #ddcdbf;
+    font-family: Trebuchet;
+    font-size: 20px;
+    position: relative;
+}
+
+.menu nav a:link, a:visited {
+	text-decoration: none;
+    color: #ddcdbf;
+}
+
+.menu nav .left {
+    float: left;
+    margin-right: 30px;
+}
+
+.menu nav .right {
+    float: right;
 }
 
 .bg2 {
