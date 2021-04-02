@@ -276,3 +276,57 @@ body {
     background-color: #3c311f;
     color: #ddcdbf;
 }
+
+/*
+* estilos da página de contato
+*/
+
+.contact-h1 {
+    color: #c28d4b;
+    font-family: Merienda;
+    position: relative;
+    text-align: center;
+}
+
+.contact-h1 p {
+    color: #c28d4b;
+    font-size: 100px;
+    font-family: Merienda;
+    letter-spacing: 3mm;
+}
+
+.sobre {
+    position: relative;
+    text-align: center;
+    color: #744924;
+    font-size: 65px;
+    font-family: Poiret;
+}
+
+.txt-s {
+    position: relative;
+    text-align: center;
+    color: azure;
+    font-size: 20px;
+    font-family: Poiret;
+}
+
+.h2-form {
+    position: relative;
+    text-align: center;
+    color: #744924;
+    font: 55px;
+    font-family: Poiret;
+}
+
+.rodap {
+    color: #74654d;
+    background-color: #2a2a2a;
+    position: center;
+    text-align: center;
+    font-family: Poiret;
+    padding: 25px 0;
+    margin-top: 5%;
+	z-index: -1;
+    background-size: cover;
+}
