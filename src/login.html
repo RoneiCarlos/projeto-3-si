@@ -8,7 +8,6 @@
     <title>Sanctus Grano | Login</title>
 </head>
 <body>
-    <script src="login.js"></script>
     <section class="vh100 bg1">
         <img class="op1" src="../img/coffee-2268307_1920.jpg" alt="coffe background image">
         <div class="all">
@@ -21,19 +20,20 @@
             <div class="login-box">
                 <div class="login-box-bg"></div>
                 <div class="login-box-form">
-                    <form method="POST">     
-                        <input type="email" placeholder="Email" name="email" required>
+                    <form>     
+                        <input type="email" placeholder="Email" id="email" required>
                         <br>
-                        <input type="password" placeholder="Senha" name="password" required>  
+                        <input type="password" placeholder="Senha" id="senha" required>  
                         <br>
                         <p class="esqueci-senha">Esqueci a senha</p>
                         <br>
                         <p class="criar-conta">Criar Conta</p>
-                        <button class="acessar" type="submit">Acessar</button>
+                        <button class="acessar" onclick="login(event);">Acessar</button>
                     </form>
                 </div>
             </div>
         </div>
     </section>
+    <script src="script.js"></script>
 </body>
 </html>
