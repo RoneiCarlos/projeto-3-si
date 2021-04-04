@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css"/>
     <title>Sanctus Grano</title>
@@ -26,32 +27,33 @@
     <section class="vh100 bg2">
         <div class="hometi">
             <h3>Escolha o café</h3>
-            <img src="../src/icons/buymeacoffee.svg" alt="coffe icon">
+            <img id="coffe" onmouseover="start();" src="../src/icons/buymeacoffee.svg" alt="coffe icon">
         </div>
     </section>
 
     <section class="vh100 bg3">
         <div class="hometi">
             <h3>Escolha o jarro</h3>
-            <i class="fas fa-prescription-bottle"></i>
+            <i id="jarro" onmouseover="start();" class="fas fa-prescription-bottle"></i>
         </div>
     </section>
 
     <section class="vh100 bg4">
         <div class="hometi">
             <h3>Espere chegar</h3>
-            <i class="fas fa-truck"></i>
+            <i id="van" onmouseover="start();" class="fas fa-truck"></i>
         </div>
     </section>
 
     <section class="vh100 bg2">
         <div class="hometi">
             <h3>Vamos lá</h3>
-            <i class="fas fa-shopping-cart"></i>
+            <i id="carrin" onmouseover="start();" class="fas fa-shopping-cart"></i>
         </div>
         <div class="icon-right">
             <a href="login.html"><i class="fas fa-chevron-right"></i></a>
         </div>
     </section>
+    <script src="script.js"></script>
 </body>
 </html>
