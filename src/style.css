@@ -52,62 +52,62 @@ body {
 }
 
 /*
-* estilo da top-bar
+* estilo do menu nas páginas
 */
 
-.top-bar {
-    height: 100px;
-    max-width: 100%;
-    left: 50%;
-    padding-left: 25%;
-    color: #ddcdbf;
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
-.top-bar p {
+.menu-2 p {
+    font-size: 40px;
+    color: #c28d4b;
+    margin-right: 20px;
     float: left;
     font-family: Merienda;
-    font-size: 2.5rem;
-    margin-top: 1.5rem;
-    margin-right: 1rem;
-    color: #c28d4b;
 }
 
-.top-bar .top-bar-divider {
+.menu-2 div {
+    margin-top: 10px;
     float: left;
-    opacity: .3;
     width: 1px;
-    border-left: 1px solid #ddcdbf;
-    height: 3rem;
-    margin-right: 1rem;
-    margin-top: 1.5rem;
+    background-color: #fff;
+    height: 45px;
+    opacity: .5;
 }
 
-.top-bar h1 {
+.menu-2 .nav {
+    margin-left: 10px;
     float: left;
-    font-family: Trebuchet;
-    font-size: 2.5rem;
-    margin-top: 1.5rem;
-    font-weight: 400;
-    margin-right: 1.5rem;
 }
 
-/*
-* estilo base do content (o que vai abaixo da top-bar)
-*/
+.menu-2 nav li {
+    list-style: none;
+}
 
-.content {
-    max-width: 100%;
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-top: 1.5rem;
-    font-family: Trebuchet;
+.menu-2 nav li ul {
     color: #ddcdbf;
+    float: left;
+    margin-top: 5px;
+    padding: 5px 10px;
+    font-size: 30px;
+    font-family: Trebuchet;
+}
+
+.menu-2 nav li .pagina {
+    color:#ddcdbf;
+    background-color: #3c311f;
+    font-family: Trebuchet;
 }
 
 /*
 * estilos da página home
 */
-
 .home-title-sub {
     position: relative;
     margin-top: -92vh;
@@ -431,41 +431,78 @@ body {
 * estilos da página de produtos
 */
 
-.content .linkcafe {
-    float: left;
+.container1 {
+    margin-top: 20vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Trebuchet;
     text-align: center;
-    font-size: 2rem;
-    margin-right: 15%;
-    margin-left: 20%;
-    margin-top: 7rem;
+    font-size: 20px;
 }
 
-.content .linkcafe img {
+.linkcafe {
+    float: left;
+}
+
+.linkcafe img {
     width: 7rem;
 }
 
-.content .linkcafe p {
+.linkcafe p {
     padding-top: 1.5rem;
 }
 
-.content .linkjarro {
-    float: right;
-    text-align: center;
-    font-size: 2rem;
-    margin-right: 20%;
-    margin-left: 15%;
-    margin-top: 7rem;
+.linkjarro {
+    float: left;
 }
 
-.content .linkjarro i {
+.linkjarro i {
     font-size: 10.5rem;
 }
 
-.content .linkjarro p {
+.linkjarro p {
     padding-top: 1.75rem;
 }
 
-.content .linkcafe:link, .linkcafe:visited, .linkjarro:link, .linkjarro:visited {
+.linkcafe:link, .linkcafe:visited, .linkjarro:link, .linkjarro:visited {
     text-decoration: none;
     color: #ddcdbf;
 }
+
+/*
+* estilos da página de cafés
+*/
+
+.box2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 80%;
+    margin: 0 auto;
+    grid-gap: 20px
+}
+
+.inbox2 {
+    margin: 0 auto;
+    transition: 0.7s;
+}
+
+.inbox2:hover {
+    background-color: #3c311f;
+}
+
+.inbox2 img {
+    max-width: 100%;
+    display: block;
+}
+
+.inbox2 p {
+    font-family: Trebuchet;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #ddcdbf;
+}
+
