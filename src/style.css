@@ -357,7 +357,9 @@ body {
     color: #ddcdbf;
     font: 55px;
     font-family: Trebuchet;
-    margin: 120px 37% 0 37%;
+    margin: 120px;
+    margin-left: 20%;
+    margin-right: 20%;
     height: 40vh;
 }
 .h2-form h2 {
@@ -396,11 +398,12 @@ body {
 }
 
 .h2-form form button {
+
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     width: 10rem;
     height: 3rem;
-    border: 1px solid #161412;
+    border: none;
     border-radius: 8px;
     color: #ddcdbf;
     font-family: Trebuchet;
@@ -418,13 +421,10 @@ body {
 .rodap {
     color: #74654d;
     background-color: #2a2a2a;
-    position: fixed;
     text-align: center;
     font-family: Poiret;
     width: 100%;
     bottom: 0;
-	z-index: 10;
-    background-size: cover;
 }
 
 /*
@@ -500,6 +500,35 @@ body {
 }
 
 .inbox2 p {
+    font-family: Trebuchet;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #ddcdbf;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    max-width: 80%;
+    margin: 0 auto;
+    grid-gap: 20px
+}
+
+.inbox {
+    margin: 0 auto;
+    transition: 0.7s;
+}
+
+.inbox:hover {
+    background-color: #3c311f;
+}
+
+.inbox img {
+    max-width: 100%;
+    display: block;
+}
+
+.inbox p {
     font-family: Trebuchet;
     font-size: 1.5rem;
     text-align: center;
