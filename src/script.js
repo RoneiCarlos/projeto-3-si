@@ -53,3 +53,4 @@ function start() {
     $('#van').shake();
     $('#carrin').shake();
 };
+
