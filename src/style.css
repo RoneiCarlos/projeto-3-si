@@ -417,29 +417,29 @@ body {
 * estilos da página de cafés
 */
 
-.box {
+.box2 {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     max-width: 80%;
     margin: 0 auto;
     grid-gap: 20px
 }
 
-.inbox {
+.inbox2 {
     margin: 0 auto;
     transition: 0.7s;
 }
 
-.inbox:hover {
+.inbox2:hover {
     background-color: #3c311f;
 }
 
-.inbox img {
+.inbox2 img {
     max-width: 100%;
     display: block;
 }
 
-.inbox p {
+.inbox2 p {
     font-family: Trebuchet;
     font-size: 1.5rem;
     text-align: center;
