@@ -4,7 +4,7 @@ function login(event) {
     var senha = document.getElementById('senha').value;
 
      if (email == '' || senha == '') {
-        alert("dados incompletos, revise os campos");
+        alert("Dados incompletos, revise os campos.");
     }
     else {
         alert("Dados corretos! Bem vindo: "+email);
@@ -19,10 +19,37 @@ function Enviar(event) {
     var opiniao = document.getElementById('opiniaoid').value;
 
     if (nome == '' || email == '' || opiniao == '') {
-        alert("Nos falta informação");
+        alert("Nos falta informação!");
     } else {
-        alert('Obrigado sr(a) ' + nome + ' os seus dados foram encaminhados com sucesso');
+        alert('Obrigado sr(a) ' + nome + ' os seus dados foram encaminhados com sucesso!');
         window.location.href = "home.html";
     }
     
 }
+
+jQuery.fn.shake = function () {
+    this.each(function (i) {
+        $(this).css({
+            "position": "relative"
+        });
+        for (var x = 1; x <= 5; x++) {
+            $(this).animate({
+                left: -25
+            }, 50).animate({
+                left: 0
+            }, 250).animate({
+                left: 25
+            }, 50).animate({
+                left: 0
+            }, 250);
+        }
+    });
+
+}
+
+function start() {
+    $('#coffe').shake();
+    $('#jarro').shake();
+    $('#van').shake();
+    $('#carrin').shake();
+};
