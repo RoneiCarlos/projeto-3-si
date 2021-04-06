@@ -450,12 +450,20 @@ body {
     font-size: 20px;
 }
 
+.container1 a {
+    color: #ddcdbf;
+    cursor: pointer;
+}
+
 .linkcafe {
+    cursor: pointer;
     float: left;
+    color: #ddcdbf;
 }
 
 .linkcafe img {
     width: 7rem;
+    color: #ddcdbf;
 }
 
 .linkcafe p {
