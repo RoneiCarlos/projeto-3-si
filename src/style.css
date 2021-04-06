@@ -91,12 +91,18 @@ body {
 }
 
 .menu-2 nav li ul {
+    cursor: pointer;
     color: #ddcdbf;
     float: left;
     margin-top: 5px;
     padding: 5px 10px;
     font-size: 30px;
     font-family: Trebuchet;
+}
+
+.menu-2 nav li ul:hover {
+    color:#ddcdbf;
+    background-color: #3c311f;
 }
 
 .menu-2 nav li .pagina {
