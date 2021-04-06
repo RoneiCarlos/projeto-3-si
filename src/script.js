@@ -54,3 +54,27 @@ function start() {
     $('#carrin').shake();
 };
 
+//linkagem de páginas
+function gotohome() {
+    window.location.href = "home.html";
+}
+
+function gotologin() {
+    window.location.href = "login.html";
+}
+
+function gotoprodutos() {
+    window.location.href = "produtos.html";
+}
+
+function gotosobre() {
+    window.location.href = "sobre.html";
+}
+
+function gotocafes() {
+    window.location.href = "cafes.html";
+}
+
+function gotojarros() {
+    window.location.href = "jarros.html";
+}
