@@ -15,16 +15,16 @@
             <div class="top-bar-divider"></div>
             <nav class="nav">
                 <li>
-                    <ul id="menu-home">
+                    <ul id="menu-home" onclick="gotohome();">
                         Home
                     </ul>
-                    <ul id="menu-produtos"> 
+                    <ul id="menu-produtos" onclick="gotoprodutos();"> 
                         Produtos
                     </ul>
-                    <ul id="menu-sobre">
+                    <ul id="menu-sobre" onclick="gotosobre();">
                         Sobre
                     </ul>
-                    <ul id="menu-login">
+                    <ul id="menu-login" onclick="gotologin();">
                         Login
                     </ul>
                 </li>
@@ -33,55 +33,63 @@
     </section>
 
     <section class="box">
-
-        <div class="inbox">
-            <img src="../img/acaia.png">
-            <span></span>
+        <div class="inbox" onmouseover="mostra1(spanacaia)" onmouseout="esconde1(spanacaia)">
+            <img id="acaia" src="../img/acaia.png">
+            <span id="spanacaia" class="hidden">É um café suave, com notas frutadas, corpo equilibrado e acidez mediana. <br> R$12 a R$48</span>
             <p>Café Acaiá</p>
         </div>
 
-        <div class="inbox">
-            <img src="../img/arabica.png">
+        <div class="inbox" onmouseover="mostra2(spanarabica)" onmouseout="esconde2(spanarabica)">
+            <img src="../img/arabica.png" id="arabica">
+            <span id="spanarabica" class="hidden">Seu aroma é intenso e os sabores são bastante variados, bem como níveis de corpo e acidez. <br> R$16 a R$64</span>
             <p>Café Arábica</p>
         </div>
 
-        <div class="inbox">
-            <img src="../img/bourbon.png">
+        <div class="inbox" onmouseover="mostra3(spanbourbon)" onmouseout="esconde3(spanbourbon)">
+            <img src="../img/bourbon.png" id="bourbon">
+            <span id="spanbourbon" class="hidden">Intenso aroma e sabor complexo, com notas de avelã. Sua acidez é baixa e costuma ser adocicada com tons de chocolate. <br> R$22 a R$88</span>
             <p>Café Bourbon</p>
         </div>
 
-        <div class="inbox">
-            <img src="../img/catuai.png">
+        <div class="inbox" onmouseover="mostra4(spancatuai)" onmouseout="esconde4(spancatuai)">
+            <img src="../img/catuai.png" id="catuai">
+            <span id="spancatuai" class="hidden">Catuaí Vermelho é mais encorpado e com amargor mais acentuado enquanto o Amarelo é mais suave e delicado no paladar. <br> R$19 a R$76</span>
             <p>Café Catuaí</p>
         </div>
 
-        <div class="inbox">
-            <img src="../img/geisha.png">
+        <div class="inbox" onmouseover="mostra5(spangeisha)" onmouseout="esconde5(spangeisha)">
+            <img src="../img/geisha.png" id="geisha">
+            <span id="spangeisha" class="hidden">Considerado uma bebida delicada, com aromas florais e notas frutadas. <br> R$45 a R$180</span>
             <p>Café Geisha</p>
         </div>
 
-        <div class="inbox">
-            <img src="../img/icatu.png">
+        <div class="inbox" onmouseover="mostra6(spanicatu)" onmouseout="esconde6(spanicatu)">
+            <img src="../img/icatu.png" id="icatu">
+            <span id="spanicatu" class="hidden">É considerado um café com sabor semelhante ao caramelo, aromas florais e cítricos, e uma acidez cítrica bem destacada. <br> R$26 a R$104</span>
             <p>Café Icatu</p>
         </div>
 
-        <div class="inbox">
-            <img src="../img/kona.png">
+        <div class="inbox" onmouseover="mostra7(spankona)" onmouseout="esconde7(spankona)">
+            <img src="../img/kona.png" id="kona">
+            <span id="spankona" class="hidden">Se mostra um café aveludado com sabor de frutas. <br> R$57 a R$228</span>
             <p>Café Kona</p>
         </div>
 
-        <div class="inbox">
-            <img src="../img/mundonovo.png">
+        <div class="inbox" onmouseover="mostra8(spanmundonovo)" onmouseout="esconde8(spanmundonovo)">
+            <img src="../img/mundonovo.png" id="mundonovo">
+            <span id="spanmundonovo" class="hidden">Tem sabor doce e marcante, com um aspecto de corpo médio, perfume intenso de torra e média acidez, possui aromas de caramelo e chocolate ao leite. <br> R$21 a R$84</span>
             <p>Café Mundo Novo</p>
         </div>
 
-        <div class="inbox">
-            <img src="../img/robusta.png">
+        <div class="inbox" onmouseover="mostra9(spanrobusta)" onmouseout="esconde9(spanrobusta)">
+            <img src="../img/robusta.png" id="robusta">
+            <span id="spanrobusta" class="hidden">Tendo o dobro de cafeína do que o arábica, é considerado uma bebida forte, ele tem uma textura suave, com baixa acidez e um corpo pesado por conta das suas notas amargas. <br> R$24 a R$96</span>
             <p>Café Robusta</p>
         </div>
 
-        <div class="inbox">
-            <img src="../img/topazio.png">
+        <div class="inbox" onmouseover="mostra10(spantopazio)" onmouseout="esconde10(spantopazio)">
+            <img src="../img/topazio.png" id="topazio">
+            <span id="spantopazio" class="hidden">É considerado um café de sabor suave, complexo e de finalização agradável com um forte perfume de notas cítricas e com uma complexa variabilidade. <br> R$32 a R$128</span>
             <p>Café Topázio</p>
         </div>
 

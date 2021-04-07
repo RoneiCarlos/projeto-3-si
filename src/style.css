@@ -91,12 +91,18 @@ body {
 }
 
 .menu-2 nav li ul {
+    cursor: pointer;
     color: #ddcdbf;
     float: left;
     margin-top: 5px;
     padding: 5px 10px;
     font-size: 30px;
     font-family: Trebuchet;
+}
+
+.menu-2 nav li ul:hover {
+    color:#ddcdbf;
+    background-color: #3c311f;
 }
 
 .menu-2 nav li .pagina {
@@ -341,7 +347,6 @@ body {
 * estilos da página sobre
 */
 
-
 .txt-s {
     position: relative;
     text-align: justify;
@@ -444,12 +449,20 @@ body {
     font-size: 20px;
 }
 
+.container1 a {
+    color: #ddcdbf;
+    cursor: pointer;
+}
+
 .linkcafe {
+    cursor: pointer;
     float: left;
+    color: #ddcdbf;
 }
 
 .linkcafe img {
     width: 7rem;
+    color: #ddcdbf;
 }
 
 .linkcafe p {
@@ -506,6 +519,13 @@ body {
     color: #ddcdbf;
 }
 
+.inbox2 span {
+    padding-left: 10px;
+    color: #ddcdbf;
+    font-family: Trebuchet;
+    text-align: justify;
+}
+
 .box {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -515,6 +535,7 @@ body {
 }
 
 .inbox {
+    text-align: justify;
     margin: 0 auto;
     transition: 0.7s;
 }
@@ -535,3 +556,13 @@ body {
     color: #ddcdbf;
 }
 
+.hidden {
+    display: none;
+}
+
+.inbox span {
+    padding-left: 10px;
+    color: #ddcdbf;
+    font-family: Trebuchet;
+    text-align: justify;
+}

@@ -15,16 +15,16 @@
             <div class="top-bar-divider"></div>
             <nav class="nav">
                 <li>
-                    <ul id="menu-home">
+                    <ul id="menu-home" onclick="gotohome();">
                         Home
                     </ul>
-                    <ul id="menu-produtos"> 
+                    <ul id="menu-produtos" onclick="gotoprodutos();"> 
                         Produtos
                     </ul>
-                    <ul id="menu-sobre">
+                    <ul id="menu-sobre" onclick="gotosobre();">
                         Sobre
                     </ul>
-                    <ul id="menu-login">
+                    <ul id="menu-login" onclick="gotologin();">
                         Login
                     </ul>
                 </li>
@@ -34,23 +34,27 @@
 
     <section class="box2">
 
-        <div class="inbox2">
+        <div class="inbox2" onmouseover="mostra11(jarro1)" onmouseout="esconde11(jarro1)">
             <img src="../img/jarro1.png">
+            <span id="jarro1" class="hidden">São ideais para armazenar os cafés com praticidade e segurança pois são livres de BPA. O fechamento hermético mantém o café frescos até a ultima dose. <br> R$25</span>
             <p>Jarro 0.25L</p>
         </div>
 
-        <div class="inbox2">
+        <div class="inbox2" onmouseover="mostra12(jarro2)" onmouseout="esconde12(jarro2)">
             <img src="../img/jarro2.png">
+            <span id="jarro2" class="hidden">São ideais para armazenar os cafés com praticidade e segurança pois são livres de BPA. O fechamento hermético mantém o café frescos até a ultima dose. <br> R$40</span>
             <p>Jarro 0.5L</p>
         </div>
 
-        <div class="inbox2">
+        <div class="inbox2" onmouseover="mostra13(jarro3)" onmouseout="esconde13(jarro3)">
             <img src="../img/jarro3.png">
+            <span id="jarro3" class="hidden">São ideais para armazenar os cafés com praticidade e segurança pois são livres de BPA. O fechamento hermético mantém o café frescos até a ultima dose. <br> R$60</span>
             <p>Jarro 1L</p>
         </div>
 
-        <div class="inbox2">
+        <div class="inbox2" onmouseover="mostra14(jarro4)" onmouseout="esconde14(jarro4)">
             <img src="../img/jarro4.png">
+            <span id="jarro4" class="hidden">São ideais para armazenar os cafés com praticidade e segurança pois são livres de BPA. O fechamento hermético mantém o café frescos até a ultima dose. <br> R$90</span>
             <p>Jarro 2L</p>
         </div>
 
