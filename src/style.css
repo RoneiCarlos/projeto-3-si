@@ -347,7 +347,6 @@ body {
 * estilos da página sobre
 */
 
-
 .txt-s {
     position: relative;
     text-align: justify;
@@ -520,6 +519,13 @@ body {
     color: #ddcdbf;
 }
 
+.inbox2 span {
+    padding-left: 10px;
+    color: #ddcdbf;
+    font-family: Trebuchet;
+    text-align: justify;
+}
+
 .box {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -529,6 +535,7 @@ body {
 }
 
 .inbox {
+    text-align: justify;
     margin: 0 auto;
     transition: 0.7s;
 }
@@ -549,3 +556,13 @@ body {
     color: #ddcdbf;
 }
 
+.hidden {
+    display: none;
+}
+
+.inbox span {
+    padding-left: 10px;
+    color: #ddcdbf;
+    font-family: Trebuchet;
+    text-align: justify;
+}
