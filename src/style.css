@@ -504,7 +504,8 @@ body {
 }
 
 .inbox2:hover {
-    background-color: #3c311f;
+    background-color: #FFFFFF;
+    opacity:.9;
 }
 
 .inbox2 img {
