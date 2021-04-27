@@ -1,0 +1,156 @@
+/*
+ adicionando as fontes usadas
+*/
+
+@font-face {
+    font-family: Trebuchet;
+    src: url(../fontes/Trebuchet.ttf);
+}
+@font-face {
+    font-family: Poiret One;
+    src: url(../fontes/PoiretOne.ttf);
+}
+@font-face {
+    font-family: Merienda;
+    src: url(../fontes/Merienda.ttf);
+}
+
+/*
+ estilo do menu
+*/
+.vh100 {
+    width: 100%;
+    height: 100vh;
+    background-color: #161412;
+}
+
+* {  
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    letter-spacing: -1px;
+    list-style: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.menu {
+    font-family: Trebuchet;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    color: #DDCDBF;
+    padding-top: 1%;
+}
+
+.spacin {
+    padding-right: 25%;
+}
+
+.baixacess {
+    padding-block-start: 10%;
+}
+
+.h1 {
+    font-family: Merienda;
+    color: #C28D4B;
+    text-align: center;
+    padding:  5rem 0rem 2rem 0rem;
+    font-size: 500%;
+}
+
+.p {
+    font-family: Segoe UI;
+    color: #DDCDBF;
+    text-align: center;
+    padding: 0rem 20rem 0rem 20rem;
+    font-size: 120%;
+    word-spacing: 125%;
+    letter-spacing: 10%;
+}
+
+.centralizado {
+    text-align: center;
+}
+
+
+/* 
+Parte de baixo
+*/
+
+.titulo2 {
+    font-family: Segoe UI;
+    color: #C28D4B;
+    font-size: 325%;
+    word-spacing: 15%;
+    padding-top: 2%;
+}
+
+.entre {
+    font-family: Segoe UI;
+    color: #DDCDBF;
+    font-size: 150%;
+    word-spacing: 15%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.agrado {
+    font-family: Segoe UI;
+    color: #734124;
+    font-size: 125%;
+    padding-top: 10%;
+}
+
+.bg-form {
+    padding-top: 3%;
+    padding-bottom: 2%;
+    width: 25%;
+    position: relative;
+    display: inline-block;
+    background-color: #161412;
+    border: 1px solid azure;
+}
+
+.campo {
+    width: 80%;
+    background-color: #161412;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #734124;
+    color: whitesmoke;
+    font-family: Segoe UI;
+}
+
+.btn_submit {
+    border: none;
+    padding: 2% 15%;
+    cursor: pointer;
+    background-color: #734124;
+    outline: none;
+    color: white;
+}
+
+.img {
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
+    position: absolute;
+    opacity: 0.3;
+}
+
+.div-form {
+    width: 100%;
+    /*height: 100%;*/
+}
+
+.overlay {
+    position: relative;
+}
