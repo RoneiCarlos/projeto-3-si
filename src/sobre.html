@@ -1,65 +1,61 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <title>Contato - Sanctus Grano</title>
-    <meta charset="utf-8" />
-    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-    <link href="style.css" rel="stylesheet" media="all" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sobre.css" media="all">
+    <title>Sanctus Grano - Sobre</title>
 </head>
 <body>
-    <?php include'menu.php'?>
-    <section class="container">
-        <div class="menu-2">
-            <p>Sanctus Grano</p>
-            <div class="top-bar-divider"></div>
-            <nav class="nav">
-                <li>
-                    <ul id="menu-home" onclick="gotohome();">
-                        Home
-                    </ul>
-                    <ul id="menu-produtos" onclick="gotoprodutos();"> 
-                        Produtos
-                    </ul>
-                    <ul id="menu-sobre" onclick="gotosobre();">
-                        Sobre
-                    </ul>
-                    <ul id="menu-login" onclick="gotologin();">
-                        Login
-                    </ul>
-                </li>
+    <div id="sobre" class="vh100">
+        <div class="container">
+            <nav class="menu">
+                <ul class="menu">
+                    <li class="spacin">Home</li>
+                    <li class="spacin">Produtos</li>
+                    <li>Sobre</li>
+                </ul>
+                <ul>
+                    <li class="baixacess">Já possui conta? Acesse</li>
+                </ul>
             </nav>
+            <h1 class="h1 centralizado">Sanctus Grano</h1>
+            <p class="p">
+                A Sanctus Grano atua no ramo de grãos de café, vendendo a base do seu paladar com sabores e aromas dos mais nobres do mercado.
+                Nosso objetivo é vasculhar, encontrar e levar os melhores grãos até você. Selecionamos os grãos de plantações parceiras e nossos
+                especialistas acompanham todos os processos, garantindo a qualidade do grão desde o plantio até ele chegar a você. Também nos
+                preocupamos com o armazenamento dos nossos cafés em sua casa, por esse motivo desenvolvemos jarros herméticos com capacidades
+                diferentes que vão suprir as mais diferentes rotinas de consumo e manterão o sabor e aroma do seu café até a última dose. <br> Além 
+                de serem completamente sustentaveis por serem reciclados, não gerando, dessa forma, mais lixo.
+            </p>
         </div>
-    </section>
+    </div>
 
-    <section class="content">
-        <p class="txt-s">
-            A Sanctus Grano atua no ramo de grãos de café, vendendo a base do seu paladar com sabores e aromas dos mais nobres do mercado. 
-            Nosso objetivo é vasculhar, encontrar e levar os melhores grãos até você. Selecionamos os grãos de plantações parceiras e nossos
-            especialistas acompanham todos os processos, garantindo a qualidade do grão desde o plantio até ele chegar a você. Também nos
-            preocupamos com o armazenamento dos nossos cafés em sua casa, por esse motivo desenvolvemos jarros herméticos com capacidades
-            diferentes que vão suprir as mais diferentes rotinas de consumo e manterão o sabor e aroma do seu café até a última dose, além 
-            de serem completamente sustentaveis por serem reciclados, não gerando, dessa forma, mais lixo.
-        </p>
-        <div class="h2-form">
-            <h2>Entre em contato conosco!</h2>
-            <form>
-                <input type="text" id="nomeid" placeholder="Nome" required="required"/>
-                <input type="text" id="sobrenome" placeholder="Sobrenome" required="required"/><br>
-                <input type="tel" id="foneid" placeholder="Numero de telefone"/>
-                <input type="email" id="emailid" placeholder="E-mail" required="required"/><br>
-                <textarea id="opiniaoid" placeholder="Deixe sua opnião" required="required"></textarea><br>
-                <button class="enviar" onclick="Enviar(event);">Enviar</button>
-            </form>
+    <div id="2" class="vh100">
+        <div class="img">
+        <img class="div-form" src="../img/louis-hansel-e96ST3p7tn4-unsplash.jpg" alt="">
         </div>
-    </section>
-    <section class="rodap">
-        <p>SAC: +0 96 9 4002-8922 &nbsp; <i class="em em-telephone_receiver" aria-role="presentation" aria-label="TELEPHONE RECEIVER"></i></p>
-        <br>
-        <p>Feito com <i class="em em-heart" aria-role="presentation" aria-label="HEAVY BLACK HEART"></i> em Rio Grande, RS - Brasil</p>
-        <br>
-        <p>Feito por: João Vieira, Pablo Silva, Ronei Carlos e Wendell Soares <i class="em em-computer" aria-role="presentation" aria-label="PERSONAL COMPUTER"></i></p>
-    </section>
-    <script src="script.js"></script>
+        <div class="countainer centralizado overlay">
+            <p class="titulo2">Entre em contato com a gente</p>
+            <p class="entre">
+                Entre em contato conosco através do formulário abaixo. Teremos prazer em atender você!
+            </p>
+            <br>
+            <div class="bg-form">
+                <div id="area">
+                    <form id="formulario" autocomplete="on">
+                        <div class="container">
+                        <input placeholder="Nome" class="campo" type="text"><br><br><br>
+                        <input placeholder="E-mail" class="campo" type="password"><br><br><br>
+                        <input placeholder="Mensagem" class="campo" type="text"><br><br><br><br>
+                        <input class="btn_submit" type="submit" value="Enviar">
+                        </div>
+                    </form>
+                  </div>
+            </div>
+            <p class="agrado">Agradecemos pela preferêrncia!</p>
+        </div>
+    </div>
 </body>
 </html>

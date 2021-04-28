@@ -1,0 +1,119 @@
+/*
+ adicionando as fontes usadas
+*/
+
+@font-face {
+    font-family: Trebuchet;
+    src: url(../fontes/Trebuchet.ttf);
+}
+@font-face {
+    font-family: Poiret One;
+    src: url(../fontes/PoiretOne.ttf);
+}
+@font-face {
+    font-family: Merienda;
+    src: url(../fontes/Merienda.ttf);
+}
+
+.vh100 {
+    background-color: #161412;
+}
+
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    letter-spacing: -1px;
+    list-style: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.menu {
+    font-family: Trebuchet;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    color: #DDCDBF;
+    padding-top: 1%;
+}
+
+.spacin {
+    padding-right: 25%;
+}
+
+.baixacess {
+    padding-top: 37%;
+}
+
+.img {
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
+    position: relative;
+    opacity: 0.3;
+}
+
+.div-form {
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+}
+
+.bg-form {
+    padding-top: 3%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 1%;
+    width: 22%;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #16141293;
+    border: 1px solid azure;
+}
+
+.campo {
+    width: 90%;
+    background-color: #16141200;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #734124;
+    color: whitesmoke;
+    font-family: Segoe UI;
+}
+
+.btn_submit {
+    border: none;
+    padding: 2% 15%;
+    cursor: pointer;
+    background-color: #734124;
+    outline: none;
+    color: white;
+}
+
+.btn_senha {
+    border: none;
+    padding: 2% 60%;
+    cursor: pointer;
+    background-color: #ffffff00;
+    color: white;
+}
+
+.btn_cc {
+    border: none;
+    padding: 2% 15%;
+    cursor: pointer;
+    background-color: #ffffff00;
+    color: white;
+}
