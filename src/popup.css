@@ -25,23 +25,14 @@ a {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    color: #fff;
     position: relative;
-}
-
-.fundo {
-    position: absolute;
-    width: 35rem;
-    height: 15rem;
-    background-color: #161412;
-    opacity: .8;
 }
 
 .bloco {
-    position: relative;
     width: 35rem;
     height: 15rem;
     border: #C28D4B 1px solid;
+    background-color: #161412;
     padding: 2rem;
     display: flex;
     justify-content: space-around;
@@ -51,13 +42,14 @@ a {
 
 .h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 100;
+    font-weight: 400;
     color: #fff;
 }
 
 .p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+    color: #DDCDBF;
 }
 
 .botoes {
