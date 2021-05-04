@@ -47,15 +47,15 @@
     justify-content: space-around;
     align-content: space-around;
     color: #DDCDBF;
-    padding-top: 1%;
+    padding-top: 30px;
 }
 
 .spacin {
-    padding-right: 25%;
+    padding-right: 30px;
 }
 
 .baixacess {
-    padding-block-start: 10%;
+    padding-block-start: 30px;
 }
 
 .h1 {
@@ -63,7 +63,7 @@
     color: #C28D4B;
     text-align: center;
     padding:  5rem 0rem 2rem 0rem;
-    font-size: 500%;
+    font-size: 85px;
 }
 
 .p {
@@ -71,9 +71,8 @@
     color: #DDCDBF;
     text-align: center;
     padding: 0rem 20rem 0rem 20rem;
-    font-size: 120%;
-    word-spacing: 125%;
-    letter-spacing: 10%;
+    font-size: 25px;
+    word-spacing: 3px;
 }
 
 .centralizado {
@@ -89,53 +88,59 @@ Parte de baixo
 .titulo2 {
     font-family: Segoe UI;
     color: #C28D4B;
-    font-size: 325%;
-    word-spacing: 15%;
-    padding-top: 2%;
+    font-size: 60px;
+    word-spacing: 3px;
+    padding-top: 8px;
 }
 
 .entre {
     font-family: Segoe UI;
     color: #DDCDBF;
-    font-size: 150%;
-    word-spacing: 15%;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    font-size: 30px;
+    word-spacing: 3px;
+    padding-top: 8px;
+    padding-bottom: 30px;
+    padding-left: 250px;
+    padding-right: 250px;
 }
 
 .agrado {
     font-family: Segoe UI;
-    color: #734124;
-    font-size: 125%;
-    padding-top: 10%;
+    color: #744924;
+    font-size: 30px;
+    padding-top: 75px;
 }
 
 .bg-form {
-    padding-top: 3%;
-    padding-bottom: 2%;
-    width: 25%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    width: 500px;
+    height: 375px;
     position: relative;
     display: inline-block;
-    background-color: #161412;
+    background-color: #161412d5;
     border: 1px solid azure;
 }
 
 .campo {
-    width: 80%;
-    background-color: #161412;
+    width: 400px;
+    background-color: #16141263;
     border-top: 0;
     border-left: 0;
     border-right: 0;
-    border-bottom: 1px solid #734124;
-    color: whitesmoke;
+    border-bottom: 1px solid #744924;
+    font-size: 20px;
+    color: white;
     font-family: Segoe UI;
+    outline: none;
 }
 
 .btn_submit {
     border: none;
-    padding: 2% 15%;
+    font-size: 20px;
+    padding: 10px 75px;
     cursor: pointer;
-    background-color: #734124;
+    background-color: #744924;
     outline: none;
     color: white;
 }
