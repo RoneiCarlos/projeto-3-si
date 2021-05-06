@@ -34,19 +34,20 @@
 
 .menu {
     font-family: Segoe UI;
+    font-size: 25px;
     display: flex;
     justify-content: space-around;
     align-content: space-around;
     color: #DDCDBF;
-    padding-top: 5%;
+    padding-top: 70px;
 }
 
 .spacin {
-    padding-right: 25%;
+    padding-right: 25px;
 }
 
 .baixacess {
-    padding-top: 205.5%;
+    padding-top: 70px;
 }
 
 .container-img {
@@ -68,10 +69,10 @@
 }
 
 .bg-form {
-    padding-top: 3%;
-    padding-bottom: 2%;
-    padding-left: 2%;
-    padding-right: 1%;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 10px;
     width: 22%;
     margin: 0;
     position: absolute;
@@ -89,23 +90,26 @@
     border-top: 0;
     border-left: 0;
     border-right: 0;
-    border-bottom: 1px solid #734124;
-    color: whitesmoke;
+    border-bottom: 1px solid #744924;
+    font-size: 20px;
+    color: white;
     font-family: Segoe UI;
 }
 
 .btn_submit {
     border: none;
-    padding: 2% 15%;
+    font-size: 20px;
+    padding: 10px 45px;
     cursor: pointer;
-    background-color: #734124;
+    background-color: #744924;
     outline: none;
     color: white;
 }
 
 .btn_senha {
     border: none;
-    padding: 2% 60%;
+    font-size: 15px;
+    padding: 10px 175px;
     cursor: pointer;
     background-color: #ffffff00;
     color: white;
@@ -113,7 +117,8 @@
 
 .btn_cc {
     border: none;
-    padding: 2% 15%;
+    font-size: 20px;
+    padding: 10px 25px;
     cursor: pointer;
     background-color: #ffffff00;
     color: white;
