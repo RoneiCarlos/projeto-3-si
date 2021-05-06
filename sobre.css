@@ -1,0 +1,162 @@
+/*
+ adicionando as fontes usadas
+*/
+
+@font-face {
+    font-family: Trebuchet;
+    src: url(../fontes/Trebuchet.ttf);
+}
+@font-face {
+    font-family: Poiret One;
+    src: url(../fontes/PoiretOne.ttf);
+}
+@font-face {
+    font-family: Merienda;
+    src: url(../fontes/Merienda.ttf);
+}
+
+/*
+ estilo do menu
+*/
+
+.vh100 {
+    width: 100%;
+    height: 100vh;
+    background-color: #161412;
+}
+
+* {  
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    letter-spacing: -1px;
+    list-style: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.menu {
+    font-family: Trebuchet;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    color: #DDCDBF;
+    padding-top: 30px;
+}
+
+.spacin {
+    padding-right: 30px;
+}
+
+.baixacess {
+    padding-block-start: 30px;
+}
+
+.h1 {
+    font-family: Merienda;
+    color: #C28D4B;
+    text-align: center;
+    padding:  5rem 0rem 2rem 0rem;
+    font-size: 85px;
+}
+
+.p {
+    font-family: Segoe UI;
+    color: #DDCDBF;
+    text-align: center;
+    padding: 0rem 20rem 0rem 20rem;
+    font-size: 25px;
+    word-spacing: 3px;
+}
+
+.centralizado {
+    text-align: center;
+}
+
+
+/* 
+Parte de baixo
+*/
+
+
+.titulo2 {
+    font-family: Segoe UI;
+    color: #C28D4B;
+    font-size: 60px;
+    word-spacing: 3px;
+    padding-top: 8px;
+}
+
+.entre {
+    font-family: Segoe UI;
+    color: #DDCDBF;
+    font-size: 30px;
+    word-spacing: 3px;
+    padding-top: 8px;
+    padding-bottom: 30px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.agrado {
+    font-family: Segoe UI;
+    color: #744924;
+    font-size: 30px;
+    padding-top: 75px;
+}
+
+.bg-form {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    width: 500px;
+    height: 375px;
+    position: relative;
+    display: inline-block;
+    background-color: #161412d5;
+    border: 1px solid azure;
+}
+
+.campo {
+    width: 400px;
+    background-color: #16141263;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #744924;
+    font-size: 20px;
+    color: white;
+    font-family: Segoe UI;
+    outline: none;
+}
+
+.btn_submit {
+    border: none;
+    font-size: 20px;
+    padding: 10px 75px;
+    cursor: pointer;
+    background-color: #744924;
+    outline: none;
+    color: white;
+}
+
+.img {
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
+    position: absolute;
+    opacity: 0.3;
+}
+
+.div-form {
+    width: 100%;
+}
+
+.overlay {
+    position: relative;
+}
