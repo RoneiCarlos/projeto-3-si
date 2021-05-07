@@ -39,15 +39,15 @@
     justify-content: space-around;
     align-content: space-around;
     color: #DDCDBF;
-    padding-top: 5%;
+    padding-top: 75px;
 }
 
 .spacin {
-    padding-right: 25%;
+    padding-right: 35px;
 }
 
 .baixacess {
-    padding-top: 205.5%;
+    padding-top: 75px;
 }
 
 .container-img {
@@ -69,23 +69,21 @@
 }
 
 .bg-form {
-    padding-top: 3%;
-    padding-bottom: 2%;
-    padding-left: 2%;
-    padding-right: 1%;
-    width: 22%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+    width: 275px;
     margin: 0;
     position: absolute;
-    top: 40%;
-    left: 40%;
-    display: block;
-    margin-right: -50%;
+    top: 15rem;
+    left: 35rem;
     background-color: #161412bd;
-    border: 1px solid azure;
+    border: 1px solid rgb(255, 255, 255);
 }
 
 .campo {
-    width: 90%;
+    width: 225px;
     background-color: #16141200;
     border-top: 0;
     border-left: 0;
@@ -97,7 +95,7 @@
 
 .btn_submit {
     border: none;
-    padding: 2% 15%;
+    padding: 8px 35px;
     cursor: pointer;
     background-color: #734124;
     outline: none;
@@ -106,7 +104,7 @@
 
 .btn_senha {
     border: none;
-    padding: 2% 60%;
+    padding: 8px 145px;
     cursor: pointer;
     background-color: #ffffff00;
     color: white;
@@ -114,7 +112,7 @@
 
 .btn_cc {
     border: none;
-    padding: 2% 15%;
+    padding: 8px 35px;
     cursor: pointer;
     background-color: #ffffff00;
     color: white;
