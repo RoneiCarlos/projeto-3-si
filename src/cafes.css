@@ -64,6 +64,7 @@ body {
     flex-wrap: wrap;
     max-width: 70vw;
     margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .box div {
