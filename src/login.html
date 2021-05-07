@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="login.css" media="all">
+    <link rel="icon" href="../img/icon.png">
     <title>Login - Sanctus Grano</title>
 </head>
 <body>
@@ -28,14 +29,16 @@
             <div class="bg-form">
                 <div id="area">
                     <form id="formulario" autocomplete="on">
-                        <input placeholder="E-mail" class="campo" type="text"><br><br><br>
-                        <input placeholder="Senha" class="campo" type="password"><br>
+                        <input id="email" placeholder="E-mail" class="campo" type="text"><br><br><br>
+                        <input id="senha" placeholder="Senha" class="campo" type="password"><br>
                         <input class="btn_senha" type="submit" value="Esqueci a senha"><br><br><br><br>
-                        <input class="btn_cc" type="submit" value="Criar conta">
-                        <input class="btn_submit" type="submit" value="Acessar">
+                        <input class="btn_cc" type="button" value="Criar conta" onclick="cadastro()">
+                        <input class="btn_submit" type="button" value="Acessar" onclick="acessar()"> 
                     </form>
                 </div>
             </div>
     </div>
+    <script type="text/javascript" src="../data/usuarios.json"></script>
+    <script type="text/javascript" src="login.js"></script>
 </body>
 </html>
