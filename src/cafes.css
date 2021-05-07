@@ -59,9 +59,6 @@ body {
 
 /* Conteudo */
 
-img {
-}
-
 .box {
     display: flex;
     flex-wrap: wrap;
@@ -137,7 +134,7 @@ img {
     width: 13rem;
     height: 2.5em;
     border: 1px solid #161412;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 .button:hover {
