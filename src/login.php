@@ -26,17 +26,18 @@
                 </nav>
             </div>
         </div>
-            <div class="bg-form">
-                <div id="area">
-                    <form id="formulario" method="POST" action="logar.php" autocomplete="on">
-                        <input name="email" id="email" placeholder="E-mail" class="campo" type="text"><br><br><br>
-                        <input name="senha" id="senha" placeholder="Senha" class="campo" type="password"><br>
-                        <input class="btn_senha" type="submit" value="Esqueci a senha" disabled="disabled"><br><br><br><br>
-                        <input class="btn_cc" type="button" value="Criar conta">
-                        <input class="btn_submit" type="button" value="Acessar"> 
-                    </form>
-                </div>
+        
+        <div class="bg-form">
+            <div id="area">
+                <form id="formulario" method="POST" action="logar.php" autocomplete="on">
+                    <input required="required" name="email" id="email" placeholder="E-mail" class="campo" type="text"><br><br><br>
+                    <input required="required" name="senha" id="senha" placeholder="Senha" class="campo" type="password"><br>
+                    <br><br><br><br>
+                    <input class="btn_cc" type="button" value="Criar conta">
+                    <input class="btn_submit" type="submit" value="Acessar">
+                </form>
             </div>
+        </div>
     </div>
 </body>
 </html>
