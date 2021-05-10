@@ -1,9 +1,1 @@
-{
-    "usuarios" : [
-        {
-            "nome": "Sanctus Grano",
-            "email": "sanctusgrano@mail.com",
-            "senha": "sanctusgrano"
-        }
-    ]
-}
+[{"nome":"Sanctus Grano","email":"sanctusgrano@mail.com","senha":"sanctusgrano","carrinho":[]}]

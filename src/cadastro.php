@@ -29,12 +29,12 @@
     </div>
     <div class="bg-form">
         <div>
-            <form autocomplete="on" action="">
-                <input placeholder="Nome Completo" class="campo" type="text"><br><br><br>
-                <input placeholder="Email" class="campo" type="text"><br><br><br>
-                <input placeholder="Senha" class="campo" type="password"><br><br><br>
-                <input placeholder="Repita sua senha" class="campo" type="password"><br><br><br><br>
-                <input class="btn_cc" type="submit" value="Acessar">
+            <form method="POST" action="cadastrar.php">
+                <input name="nome" value="" placeholder="Nome Completo" class="campo" type="text" required="required"><br><br><br>
+                <input name="email" value="" placeholder="Email" class="campo" type="text" required="required"><br><br><br>
+                <input name="senha" value="" placeholder="Senha" class="campo" type="password" required="required"><br><br><br>
+                <input name="rsenha" value="" placeholder="Repita sua senha" class="campo" type="password" required="required"><br><br><br><br>
+                <input class="btn_cc" type="submit" value="Fazer login">
                 <input class="btn_submit" type="submit" value="Criar conta">
             </form>
         </div>
