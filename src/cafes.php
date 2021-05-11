@@ -16,8 +16,7 @@
 
     <section class="box">
 
-        <?php 
-        
+        <?php
             //importa o json
             $cfs_json = file_get_contents('../data/cafes.json');
             //transforma o json pra phpobject
@@ -25,29 +24,28 @@
             
             //itera sobre todos os cafés e insere o elemento na tela de acordo com a iteração
             foreach ($cfs as $k => $c) {
-                echo(
-                    '<div class="boximg">
-                        <h1>'.$c->nome.'</h1>
+                echo('<div class="boximg">
                         <img src="../img/refil.png" class="imgh">
-
+                        <br>
                         <div class="overlay">
                             
                             <div class="overcontent">
-                                <h3>Preço: R$'.$c->preco.'/KG</h3>
+                                <h3>Preço: R$'.$c->preco.',00</h3>
                                 <p>
                                     '.$c->descricao.'
                                 </p>
-                                <button class="button login">Faça login para comprar</button>
+                                <button class="button" onclick="addCart('.$k.')">Add cart</button>
                             </div>
                         </div>                  
-                    </div>'
-                );
+                        <h1>'.$c->nome.' - '.$c->peso.'g</h1>
+
+                    </div><br>');
             }
-        
-        ?>               
-                
+        ?>                           
     </section>
 
-    <script src="script.js"></script>
+    <button class="button" onclick="goCart();">Finalizar compras</button>
+
+    <script src="cafes.js"></script>
 </body>
 </html>
