@@ -25,8 +25,6 @@
     //adiciona o ítem no carrinho
     $carrinho[$index] = intval($id_cafe);
 
-    
-    
     //atualiza o carrinho do usuario logado com os valores inseridos
     $usrs[$on]->carrinho = $carrinho;
 

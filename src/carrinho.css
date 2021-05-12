@@ -1,10 +1,10 @@
 @font-face {
 	font-family: Poiret One;
-	src: url(../fontes/PoiretOne.ttf);
+	src: url(../fonts/PoiretOne.ttf);
 }
 @font-face {
 	font-family: Merienda;
-	src: url(../fontes/Merienda.ttf);
+	src: url(../fonts/Merienda.ttf);
 }
 
 * {
@@ -33,7 +33,7 @@ body {
 }
 
 .sg {
-    font-family: merienda;
+    font-family: Merienda;
     color: #c28d4b;
     font-size: 2.5rem;
     border-right: 1px solid #ddcdbf;

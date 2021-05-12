@@ -39,7 +39,7 @@
                                 <p>
                                     '.$c->descricao.'
                                 </p>
-                                <button type="button" class="button" onclick="addCart('.$k.')">Add cart</button>
+                                <button type="button" class="button" onclick="addCart('.$k.')">Adicionar ao carrinho</button>
                             </div>
                         </div>                  
                         <h1>'.$c->nome.' - '.$c->peso.'g</h1>
