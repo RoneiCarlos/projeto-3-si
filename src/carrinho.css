@@ -171,6 +171,7 @@ body {
 
 .finalizar {
     align-self: flex-end;
+    margin-top: 0.4rem;
 }
 
 .add {
@@ -179,10 +180,10 @@ body {
     margin-top: 2rem;
 }
 
-.add p {
+.total {
     font-size: 1.2rem;
-    align-self: center;
-    padding-left: 13rem;
+    align-self: flex-end;
+    padding-right: 5.8rem;
 }
 
 .button2 {
