@@ -4,11 +4,11 @@
 
 @font-face {
     font-family: Poiret One;
-    src: url(../fontes/PoiretOne.ttf);
+    src: url(../fonts/PoiretOne.ttf);
 }
 @font-face {
     font-family: Merienda;
-    src: url(../fontes/Merienda.ttf);
+    src: url(../fonts/Merienda.ttf);
 }
 
 .vh100 {
@@ -99,27 +99,23 @@
 .btn_submit {
     border: none;
     font-size: 20px;
-    padding: 10px 45px;
+    padding: 10px 25px;
     cursor: pointer;
     background-color: #744924;
     outline: none;
     color: white;
 }
 
-.btn_senha {
-    border: none;
-    font-size: 15px;
-    padding: 10px 175px;
-    cursor: pointer;
-    background-color: #ffffff00;
-    color: white;
-}
-
 .btn_cc {
     border: none;
     font-size: 20px;
-    padding: 10px 25px;
+    padding: 10px 20px;
     cursor: pointer;
-    background-color: #ffffff00;
+    background-color: #161412;
     color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
 }
