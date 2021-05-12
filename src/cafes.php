@@ -12,7 +12,7 @@
 </head>
 <body>
 
-    <?php require('menu.php'); ?>
+    <?php require('header_in_sys.php'); ?>
 
     
 
@@ -50,6 +50,8 @@
     </section>
 
     <button class="button" onclick="goCart();">Finalizar compras</button>
+    <?php require('footer_in_sys.php'); ?>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="cafes.js"></script>
 </body>
