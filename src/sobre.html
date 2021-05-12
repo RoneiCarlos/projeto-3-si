@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="sobre.css" media="all">
     <link rel="icon" href="../img/icon.png">
     <title>Sanctus Grano - Sobre</title>
+    <script>
+        function func1()
+        {
+        alert("Entraremos em contato assim que possivel!");
+        }
+    </script>
 </head>
 <body>
     <div id="sobre" class="vh100">
@@ -45,10 +51,10 @@
             <div class="bg-form">
                 <div id="area">
                     <form id="formulario" autocomplete="off">
-                        <input placeholder="Nome" class="campo" type="text"><br>
-                        <input placeholder="E-mail" class="campo" type="password"><br>
-                        <input placeholder="Mensagem" class="campo" type="text"><br>
-                        <input class="btn_submit" type="submit" value="Enviar">
+                        <input required placeholder="Nome" class="campo" type="text"><br>
+                        <input required placeholder="E-mail" class="campo" type="text"><br>
+                        <input required placeholder="Mensagem" class="campo" type="text"><br>
+                        <input onclick="func1()" class="btn_submit" type="submit" value="Enviar">
                     </form>
                   </div>
             </div>
