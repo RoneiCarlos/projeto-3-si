@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
     <title>Contato - Sanctus Grano</title>
-    <meta charset="utf-8" />
+    <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" puqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
@@ -13,6 +13,8 @@
 <body>
 
     <?php require('menu.php'); ?>
+
+    
 
     <section class="box">
 
@@ -37,14 +39,14 @@
                                 <p>
                                     '.$c->descricao.'
                                 </p>
-                                <button class="button" onclick="addCart('.$k.')">Add cart</button>
+                                <button type="button" class="button" onclick="addCart('.$k.')">Add cart</button>
                             </div>
                         </div>                  
                         <h1>'.$c->nome.' - '.$c->peso.'g</h1>
 
                     </div><br>');
             }
-        ?>                           
+        ?>
     </section>
 
     <button class="button" onclick="goCart();">Finalizar compras</button>

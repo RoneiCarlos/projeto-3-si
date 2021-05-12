@@ -34,10 +34,16 @@
                 <input name="email" value="" placeholder="Email" class="campo" type="text" required="required"><br><br><br>
                 <input name="senha" value="" placeholder="Senha" class="campo" type="password" required="required"><br><br><br>
                 <input name="rsenha" value="" placeholder="Repita sua senha" class="campo" type="password" required="required"><br><br><br><br>
-                <input class="btn_cc" type="submit" value="Fazer login">
+                <input class="btn_cc" type="button" onclick="redirectLogin();" value="Fazer login">
                 <input class="btn_submit" type="submit" value="Criar conta">
             </form>
         </div>
     </div>
+
+    <script>
+        function redirectLogin(){
+            window.location.href = "login.php";
+        };
+    </script>
 </body>
 </html>
