@@ -8,7 +8,5 @@ goCart = () => {
 function addCart (id_cafe) {
     $.post('addCart.php', {
         id_cafe: id_cafe
-    }, function(response){
-        console.log(response);
     });
 }
