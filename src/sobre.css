@@ -1,18 +1,13 @@
 /*
  adicionando as fontes usadas
 */
-
-@font-face {
-    font-family: Trebuchet;
-    src: url(../fontes/Trebuchet.ttf);
-}
 @font-face {
     font-family: Poiret One;
-    src: url(../fontes/PoiretOne.ttf);
+    src: url(../fonts/PoiretOne.ttf);
 }
 @font-face {
     font-family: Merienda;
-    src: url(../fontes/Merienda.ttf);
+    src: url(../fonts/Merienda.ttf);
 }
 
 /*

@@ -1,0 +1,72 @@
+[
+    {
+        "nome": "Arabica",
+        "peso": 250,
+        "torra": "média",
+        "descricao": "Possui um teor de cafeína mais baixo, tendo uma complexidade de aromas",
+        "preco": 10
+    },
+    {
+        "nome": "Robusta",
+        "peso": 250,
+        "torra": "média",
+        "descricao": "Possui textura suave, com baixa acidez e um corpo pesado por conta das suas notas amargas",
+        "preco": 10
+    },
+    {
+        "nome": "Bourbon",
+        "peso": 250,
+        "torra": "média",
+        "descricao": "Com notas de avelã. Sua acidez é baixa e costuma ser adocicada com tons de chocolate",
+        "preco": 10
+    },
+    {
+        "nome": "Catuaí",
+        "peso": 250,
+        "torra": "média",
+        "descricao": "Sendo o vermelho mais encorpado e com amargor mais acentuado, e o amarelo mais suave e delicado no paladar",
+        "preco": 10
+    },
+    {
+        "nome": "Geisha",
+        "peso": 250,
+        "torra": "média",
+        "descricao": "Considerado uma bebida delicada, com aromas florais e notas frutadas",
+        "preco": 10
+    },
+    {
+        "nome": "Mundo Novo",
+        "peso": 250,
+        "torra": "média",
+        "descricao": "Doce e marcante, com um aspecto de corpo médio, perfume intenso de torra e média acidez, possui aromas de caramelo e chocolate ao leite",
+        "preco": 10
+    },
+    {
+        "nome": "Kona",
+        "peso": 250,
+        "torra": "média",
+        "descricao": "Se mostra um café aveludado com sabor de frutas",
+        "preco": 10
+    },
+    {
+        "nome": "Acaiá",
+        "peso": 250,
+        "torra": "média",
+        "descricao": "Com sabor suave, de notas frutadas, corpo equilibrado e acidez mediana",
+        "preco": 10
+    },
+    {
+        "nome": "Icatu",
+        "peso": 250,
+        "torra": "média",
+        "descricao": "Com sabor semelhante ao caramelo, aromas florais e cítricos, com uma acidez cítrica bem destacada",
+        "preco": 10
+    },
+    {
+        "nome": "Topázio",
+        "peso": 250,
+        "torra": "média",
+        "descricao": "Possui sabor suave, complexo e de finalização agradável com um forte perfume de notas cítricas e com uma complexa variabilidade",
+        "preco": 10
+    }
+]
