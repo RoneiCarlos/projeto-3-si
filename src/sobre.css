@@ -36,13 +36,19 @@
 }
 
 .menu {
-    font-family: Trebuchet;
+    font-family: Segoe UI;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-content: space-around;
-    color: #DDCDBF;
+    color: #ffffff;
     padding-top: 30px;
+    font-size: 1.25rem;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .spacin {
@@ -65,7 +71,7 @@
     font-family: Segoe UI;
     color: #DDCDBF;
     text-align: center;
-    padding: 0rem 20rem 0rem 20rem;
+    padding: 0rem 5rem;
     font-size: 25px;
     word-spacing: 3px;
 }
@@ -110,7 +116,7 @@ Parte de baixo
     padding-top: 30px;
     padding-bottom: 20px;
     width: 500px;
-    height: 375px;
+    height: 250px;
     position: relative;
     display: inline-block;
     background-color: #161412d5;

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="cadastro.css" media="all">
     <link rel="icon" href="../img/icon.png">
-    <title>Cadastro</title>
+    <title>Cadastro - Sanctus Grano</title>
 </head>
 <body>
     <div class="vh100">
@@ -17,7 +17,7 @@
             <div class="container">
                 <nav class="menu">
                     <ul class="menu">
-                        <li class="spacin"><a href="produtos.php">Produtos</a></li>
+                        <li class="spacin"><a href="cafes.php">Produtos</a></li>
                         <li class="spacin"><a href="sobre.html">Sobre</a></li>
                     </ul>
                     <ul>

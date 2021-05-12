@@ -17,7 +17,7 @@
             <div class="container">
                 <nav class="menu">
                     <ul class="menu">
-                        <li class="spacin"><a href="produtos.php">Produtos</a></li>
+                        <li class="spacin"><a href="cafes.php">Produtos</a></li>
                         <li class="spacin"><a href="sobre.html">Sobre</a></li>
                     </ul>
                     <ul>

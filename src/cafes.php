@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <title>Contato - Sanctus Grano</title>
+    <title>Cafés - Sanctus Grano</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
@@ -39,7 +39,7 @@
                                 <p>
                                     '.$c->descricao.'
                                 </p>
-                                <button type="button" class="button" onclick="addCart('.$k.')">Adicionar ao carrinho</button>
+                                <button type="button" class="button" onclick="func1()" value="Exibir Alert" onclick="addCart('.$k.')">Adicionar ao carrinho</button>
                             </div>
                         </div>                  
                         <h1>'.$c->nome.' - '.$c->peso.'g</h1>
