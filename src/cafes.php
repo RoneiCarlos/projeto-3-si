@@ -49,6 +49,8 @@
         ?>
     </section>
 
+    <?php require('footer_in_sys.php'); ?>
+
     <button class="button" onclick="goCart();">Finalizar compras</button>
     <?php require('footer_in_sys.php'); ?>
 
