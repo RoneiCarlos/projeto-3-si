@@ -6,9 +6,8 @@ goCart = () => {
 }
 
 
-addCart = (el) => {
+addCart = (id_cafe) => {
 
-    //importar no php jquery
-    //ajax que envia o el pra o teste.php
+    
 
 }

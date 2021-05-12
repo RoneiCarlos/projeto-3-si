@@ -17,11 +17,14 @@
     <section class="box">
 
         <?php
-            //importa o json
+            //importa o json de cafes
             $cfs_json = file_get_contents('../data/cafes.json');
             //transforma o json pra phpobject
             $cfs = json_decode($cfs_json);
-            
+
+            //importa o json de usuarios
+            $usrs_json = file_get_contents('../data/usuarios.json');
+
             //itera sobre todos os cafés e insere o elemento na tela de acordo com a iteração
             foreach ($cfs as $k => $c) {
                 echo('<div class="boximg">
@@ -45,7 +48,7 @@
     </section>
 
     <button class="button" onclick="goCart();">Finalizar compras</button>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="cafes.js"></script>
 </body>
 </html>
