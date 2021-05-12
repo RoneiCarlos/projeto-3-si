@@ -129,7 +129,7 @@
         <div class="menu">
             <ul class="menu">
                 <li>
-                    <a href="/index.html">Home</a>
+                    <a href="index.html">Home</a>
                 </li>
                 <li>
                     <a href="sobre.html">Sobre</a>

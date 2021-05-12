@@ -11,13 +11,8 @@
     <title>Cafes</title>
 </head>
 <body>
-
     <?php require('header_in_sys.php'); ?>
-
-    
-
     <section class="box">
-
         <?php
             //importa o json de cafes
             $cfs_json = file_get_contents('../data/cafes.json');
@@ -48,8 +43,6 @@
             }
         ?>
     </section>
-
-    <?php require('footer_in_sys.php'); ?>
 
     <button class="button" onclick="goCart();">Finalizar compras</button>
     <?php require('footer_in_sys.php'); ?>

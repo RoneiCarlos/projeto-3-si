@@ -72,7 +72,7 @@
                     <p>Valor total da compra R$<?php echo($v_total); ?>,00</p>
                 </div>
 
-                <div class="finalizar"><button class="button2" onclick="window.location.href='pagamento.html'">Finalizar compra</button></div>
+                <div class="finalizar"><button class="button2" onclick="window.location.href='pagamento.php'">Finalizar compra</button></div>
             </div>
         </div>
 
