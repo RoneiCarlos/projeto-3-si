@@ -8,6 +8,14 @@
     <link rel="icon" href="../img/icon.png">
     <link rel="stylesheet" href="index.css"/>
     <title>Sanctus Grano - compre prove se apaixone</title>
+    <script>
+        function scrollWin() {
+            window.scrollBy(0, -1332)
+        }
+        function pabaixo() {
+            window.scrollBy(0, 666)
+        }
+    </script>
 </head>
 <body>
     <div class="vh100">
@@ -32,7 +40,7 @@
                 <p class="sub">compre prove se apaixone</p>
             </div>
             <div class="seta">
-                <img class="seta-img" src="icons/down-arrow.svg" alt="seta para baixo">
+                <button class="bota1" onclick="pabaixo()"><img class="seta-img" src="icons/down-arrow.svg" alt="seta para baixo"></button>
             </div>
         </div>
     </div>
@@ -93,7 +101,7 @@
                 evitando a geração de mais lixo.
             </p>
             <div class="seta rotacao">
-                <img class="seta-img borda" src="icons/down-arrow.svg" alt="seta para cima">
+                <button class="bota1" onclick="scrollWin()"><img class="seta-img borda" src="icons/down-arrow.svg" alt="seta para cima"></button>
             </div>
         </div>
     </div>

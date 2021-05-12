@@ -14,6 +14,7 @@
 	list-style: none;
 	box-sizing: border-box;
     color: #ddcdbf;
+    font-family: Segoe UI;
 }
 
 body {
@@ -78,6 +79,7 @@ body {
     margin: 0rem 2rem 0rem 2rem;
     border-right: 1px solid #ddcdbf;
     padding-right: 1rem;
+    font-family: Segoe UI;
 }
 
 .user h3 {
@@ -129,12 +131,12 @@ body {
 .produto div form input {
     background-color: #161412;
     border: 1px solid #744924;
-
 }
 
 .produto div:nth-child(1) {
     font-size: 2.4rem;
     margin: 0rem 0rem 0rem 5rem;
+    width: 10rem;
 }
 
 .produto div:nth-child(3) {
@@ -184,6 +186,7 @@ body {
     font-size: 1.2rem;
     align-self: flex-end;
     padding-right: 5.8rem;
+    font-family: Segoe UI;
 }
 
 .button2 {
