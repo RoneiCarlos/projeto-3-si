@@ -17,11 +17,10 @@
             <div class="container">
                 <nav class="menu">
                     <ul class="menu">
-                        <li class="spacin"><a href="cafes.php">Produtos</a></li>
                         <li class="spacin"><a href="sobre.html">Sobre</a></li>
                     </ul>
                     <ul>
-                        <li class="baixacess"><a href="index.html">Home</a></li>
+                        <li class="baixacess"><a href="index.php">Home</a></li>
                     </ul>
                 </nav>
             </div>
