@@ -117,6 +117,21 @@ body {
     padding-bottom: 1rem;
 }
 
+.produto div form {
+    font-size: 1.4rem;
+    margin: 0rem 5rem 0rem 5rem;
+    padding: 0.4rem 2rem 0.4rem 2rem;
+    text-align: center;
+    border: 1px solid #c28d4b;
+    background-color: #161412;
+}
+
+.produto div form input {
+    background-color: #161412;
+    border: 1px solid #744924;
+
+}
+
 .produto div:nth-child(1) {
     font-size: 2.4rem;
     margin: 0rem 0rem 0rem 5rem;
@@ -159,8 +174,15 @@ body {
 }
 
 .add {
+    display: flex;
     align-self: center;
     margin-top: 2rem;
+}
+
+.add p {
+    font-size: 1.2rem;
+    align-self: center;
+    padding-left: 13rem;
 }
 
 .button2 {

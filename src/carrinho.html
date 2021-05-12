@@ -41,12 +41,15 @@
                             
                             <div>
                                 <p>Quantidade</p>
-                                <p>500g</p>                                                              
+                                <form action="/action_page.php">
+                                    <label for="quantity"></label>
+                                    <input type="number" id="quantity" name="quantity" min="1" max="10">
+                                </form>                                                              
                             </div>
                                 
                             <div>
-                                <p>Torra</p>
-                                <p>Média</p>
+                                <p>Preço</p>
+                                <p>R$ 15.00</p>
                             </div>
 
                             <div class="lixo">
@@ -55,7 +58,10 @@
 
                         </div>
 
-                        <div class="add"><button class="button2" onclick="Enviar(event);">Adicionar mais itens</button></div>
+                        <div class="add">
+                            <button class="button2" onclick="Enviar(event);">Adicionar mais itens</button>
+                            <p>Total:</p>
+                        </div>
 
                         <div class="finalizar"><button class="button2" onclick="Enviar(event);">Finalizar compra</button></div>
                     </div>
