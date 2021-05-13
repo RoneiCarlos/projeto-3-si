@@ -7,6 +7,7 @@
     background-color: #161412;
     width: 100%;
     height: 100vh;
+    position: absolute;
 }
 
 * {
@@ -15,40 +16,46 @@
     box-sizing: border-box;
     letter-spacing: -1px;
     list-style: none;
+    text-decoration: none;
 }
 
 .container {
     display: flex;
+    justify-content: center;
+}
+
+.container2 {
+    display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-content: space-around;
 }
 
 .menu {
     font-family: Segoe UI;
-    font-size: 25px;
+    font-size: 2rem;
     display: flex;
-    justify-content: space-around;
-    align-content: space-around;
+    justify-content: space-between;
     color: #DDCDBF;
-    padding-top: 70px;
+    padding-top: 5%;
+    width: 50vw;
+}
+
+.submenu {
+    display: flex;
 }
 
 .spacin {
-    padding-right: 25px;
+    padding-right: 5vh;
 }
 
 .baixacess {
-    padding-top: 70px;
+    justify-self: center;
 }
 
 .container-img {
     width: 100%;
     height: 100vh;
-    position: absolute;
     overflow: hidden;
     opacity: 0.4;
-    display: flex;
 }
 
 .img {
@@ -57,23 +64,40 @@
 }
 
 .conteudo {
+    display: flex;
+    flex-direction: column;
     position: relative;
 }
 
 .bg-form {
-    padding-top: 50px;
-    padding-bottom: 25px;
-    padding-left: 25px;
-    padding-right: 10px;
-    width: 22%;
-    margin: 0;
-    position: absolute;
-    top: 40%;
-    left: 40%;
-    display: block;
-    margin-right: -50%;
-    background-color: #161412bd;
-    border: 1px solid azure;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-self: center;
+    margin-top: 22vh;
+    padding: 1.2rem;
+    width: 45vh;
+    background-color: #161412e1;
+    border: 1px solid #DDCDBF;
+    font-family: Sagui UI;
+    font-size: 2vh;
+}
+
+.bg-form form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+
+.bg-form  form input {
+    margin-bottom: 3rem;
+    height: 2rem;
+    align-self: center;
+}
+
+.bg-form  form input::placeholder {
+
 }
 
 .campo {
@@ -82,32 +106,47 @@
     border-top: 0;
     border-left: 0;
     border-right: 0;
-    border-bottom: 1px solid #744924;
-    font-size: 20px;
-    color: white;
-    font-family: Segoe UI;
-}
-
-.btn_submit {
-    border: none;
-    font-size: 20px;
-    padding: 10px 25px;
-    cursor: pointer;
-    background-color: #744924;
-    outline: none;
-    color: white;
+    border-bottom: 1px solid #734124;
+    color: #DDCDBF;
 }
 
 .btn_cc {
     border: none;
-    font-size: 20px;
-    padding: 10px 20px;
     cursor: pointer;
     background-color: #161412;
-    color: white;
+    padding: 1rem; 
+    color: #DDCDBF;
+    font-size: 1.7rem;
+}
+
+.btn_submit {
+    border: none;
+    cursor: pointer;
+    background-color: #734124;
+    outline: none;
+    color: #DDCDBF;
+    font-size: 1.7rem;
+    padding: 1rem; 
+}
+
+::placeholder {
+    color: #DDCDBF;
+    opacity: 1;
+    font-family: Segoe UI;
+    font-size: 2.1vh;
+    padding: 2rem;
 }
 
 a {
-    text-decoration: none;
-    color: #fff;
+    color: white;
+}
+
+.buttonf {
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 1.7rem 0rem 1.7rem;
+}
+
+.buttonf input {
+    padding-bottom: 3rem;
 }
