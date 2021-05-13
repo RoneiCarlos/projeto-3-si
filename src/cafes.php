@@ -9,6 +9,21 @@
     <link href="cafes.css" rel="stylesheet" media="all" />
     <link rel="icon" href="../img/icon.png">
     <title>Cafes</title>
+
+    <style>
+        .tooltip {
+            position:absolute;
+            background-color:#ddcdbf;
+            font-size: smaller;
+            color:#161412;
+            font-wheight: 800;
+            padding:4px;
+            padding-top: 100px;
+            width: 250px;
+            height: 350px;
+            font-size: 1.5rem;
+        }
+    </style>
 </head>
 <body>
     <?php require('header_in_sys.php'); ?>
@@ -34,7 +49,7 @@
                                 <p>
                                     '.$c->descricao.'
                                 </p>
-                                <button type="button" class="button" onclick="addCart('.$k.')">Adicionar ao carrinho</button>
+                                <abbr title="Adicionado ao carrinho"><button type="button" class="button tool" onclick="addCart('.$k.')">Adicionar ao carrinho</button></abbr>
                             </div>
                         </div>                  
                         <h1>'.$c->nome.' - '.$c->peso.'g</h1>
@@ -49,5 +64,67 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="cafes.js"></script>
+    <script>
+
+        /**
+ * touchHover.js
+ *
+ * Create tooltips on mouseover or on click (for supporting touch interfaces).
+ * 
+ * @author C. Scott Asbach
+ */
+
+$(document).ready(function() {	
+	
+	/**
+	 * store the value of and then remove the title attributes from the
+	 * abbreviations (thus removing the default tooltip functionality of
+         * the abbreviations)
+	 */
+	$('abbr').each(function(){		
+		
+		$(this).data('title',$(this).attr('title'));
+		$(this).removeAttr('title');
+	
+	});
+
+        /**
+	 * when abbreviations are mouseover-ed show a tooltip with the data from the title attribute
+	 */	
+	$('abbr').click(function() {		
+		
+		// first remove all existing abbreviation tooltips
+		$('abbr').next('.tooltip').remove();
+		
+		// create the tooltip
+		$(this).after('<span class="tooltip">' + $(this).data('title') + '</span>');
+		
+		// position the tooltip 4 pixels above and 4 pixels to the left of the abbreviation
+		var left = $(this).position().right + $(this).width() - 10;
+		var top = $(this).position().top - 350;
+		$(this).next().css('left',left);
+		$(this).next().css('top',top);				
+		
+	});
+	
+	/**
+	 * when abbreviations are clicked trigger their mouseover event then fade the tooltip
+	 * (this is friendly to touch interfaces)
+	 */
+	$('abbr').click(function(){
+		
+		$(this).mouseover();
+		
+		// after a slight 2 second fade, fade out the tooltip for 1 second
+		$(this).next().animate({opacity: 1},{duration: 300, complete: function(){
+			$(this).fadeOut(500);
+		}});
+		
+	});
+	
+		
+	
+});
+    </script>
 </body>
 </html>

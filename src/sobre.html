@@ -7,12 +7,6 @@
     <link rel="stylesheet" href="sobre.css" media="all">
     <link rel="icon" href="../img/icon.png">
     <title>Sanctus Grano - Sobre</title>
-    <script>
-        function func1()
-        {
-        alert("Entraremos em contato assim que possivel!");
-        }
-    </script>
 </head>
 <body>
     <div id="sobre" class="vh100">
@@ -20,7 +14,6 @@
             <nav class="menu">
                 <ul class="menu">
                     <li class="spacin"><a href="index.html">Home</a></li>
-                    <li><a href="sobre.html">Sobre</a></li>
                 </ul>
                 <ul>
                     <li class="baixacess"><a href="login.php">Já possui conta? Acesse</a></li>
@@ -50,11 +43,11 @@
             <br>
             <div class="bg-form">
                 <div id="area">
-                    <form id="formulario" autocomplete="off">
-                        <input required placeholder="Nome" class="campo" type="text"><br>
-                        <input required placeholder="E-mail" class="campo" type="text"><br>
-                        <input required placeholder="Mensagem" class="campo" type="text"><br>
-                        <input onclick="func1()" class="btn_submit" type="submit" value="Enviar">
+                    <form id="formulario" method="POST" action="contatar.php" autocomplete="off">
+                        <input name="nome_c" required placeholder="Nome" class="campo" type="text"><br>
+                        <input name="email_c" required placeholder="E-mail" class="campo" type="text"><br>
+                        <input name="mensagem_c" required placeholder="Mensagem" class="campo" type="text"><br>
+                        <input class="btn_submit" type="submit" value="Enviar">
                     </form>
                   </div>
             </div>
