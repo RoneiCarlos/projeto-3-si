@@ -15,7 +15,6 @@
     <?php require('header_in_sys.php'); ?>
 
     <section>
-
         <div class="mu">
             <div class="carrinho">
                 <?php
@@ -60,7 +59,6 @@
                         ');
                         $v_total += $ob_cafes[$i]->preco;
                     }
-                
                 ?>
                 
 
